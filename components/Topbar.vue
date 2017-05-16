@@ -51,6 +51,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
+  // position: absolute;
   position: fixed;
   background-color: #252e38;
   border-bottom: 1px solid lighten(#252e38, 10%);

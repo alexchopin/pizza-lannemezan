@@ -21,9 +21,9 @@ export default {
 .Header
 {
   text-align: center;
-  padding: 80px 0;
-  padding-top: 164px;
-  background-color: #252e38;
+  padding: 100px 0;
+  padding-top: 184px;
+  // background-color: #252e38;
   .Logo--horizontal
   {
     width: 100%;

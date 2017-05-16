@@ -45,21 +45,23 @@ export default {
 <style lang="scss">
 .Navbar
 {
-  background-color: #252e38;
+  // background-color: #252e38;
   padding-bottom: 12px;
   padding-top: 0;
   .Link
   {
     color: #ddd;
-    border: 1px solid lighten(#252e38, 10%);
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px #252e38;
+    border: 1px solid lighten(#252e38, 40%);
     &:hover
     {
-      background-color: lighten(#252e38, 5%);
+      background-color: rgba(255, 255, 255, 0.15);
     }
   }
   .nuxt-link-active, .nuxt-link-active:hover
   {
-    background-color: lighten(#252e38, 10%);
+    background-color: rgba(255, 255, 255, 0.25);
   }
 }
 </style>
