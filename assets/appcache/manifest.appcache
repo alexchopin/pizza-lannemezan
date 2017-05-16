@@ -1,0 +1,14 @@
+CACHE MANIFEST
+#ver:2017-5-16 13:47:41
+#plugin:4.7.0
+
+CACHE:
+/assets/app.fcb943b053c3b0e6ce17.js
+/assets/vendor.0b670786da66c0df7804.js
+/
+
+NETWORK:
+*
+
+FALLBACK:
+/ /offline
