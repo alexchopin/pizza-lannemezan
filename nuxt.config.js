@@ -21,7 +21,19 @@ module.exports = NuxtHelpers(['optimize', 'offline', 'manifest'], {
   loading: { color: '#fff' },
   manifest: {
     name: 'Nuxt.js',
-    theme_color: '#3B8070'
+    theme_color: '#fff'
+  },
+  generate: {
+    routes: function () {
+      let pizzas = require('./data/pizzas')
+      let plaques = require('./data/plaques')
+      let r = []
+      r.push('/pizzas/')
+      pizzas.forEach((pizza) => { r.push('/pizzas/' + pizza.category) })
+      r.push('/plaques/')
+      plaques.forEach((plaque) => { r.push('/plaques/' + plaque.category) })
+      return r
+    }
   },
   build: {
     extend (config, ctx) {
