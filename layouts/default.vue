@@ -138,7 +138,7 @@ section
 .Romane
 {
   background-color: #252e38;
-  background-image: url('~assets/images/bg.svg');
+  background-image: url('~static/images/bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
