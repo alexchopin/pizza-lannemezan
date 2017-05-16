@@ -2,9 +2,13 @@
   <section class="List">
     <container>
       <h2 class="Title">Les desserts</h2>
-      <div class="Card" v-for="dessert in desserts">
-        <product :product="dessert"/>
-      </div>
+      <row>
+        <column sm="6" md="4" v-for="dessert in desserts" :key="dessert.name">
+          <div class="Card">
+            <product :product="dessert"/>
+          </div>
+        </column>
+      </row>
     </container>
   </section>
 </template>

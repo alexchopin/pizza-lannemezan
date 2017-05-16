@@ -2,9 +2,13 @@
   <section class="List" v-if="$route.params.category">
     <container>
       <h2 class="Title">{{ category.title }}</h2>
-      <div class="Card" v-for="pizza in category.data">
-        <product :product="pizza"/>
-      </div>
+      <row>
+        <column sm="6" md="4" v-for="plaque in category.data" :key="plaque.name">
+          <div class="Card">
+            <product :product="plaque"/>
+          </div>
+        </column>
+      </row>
     </container>
   </section>
 </template>

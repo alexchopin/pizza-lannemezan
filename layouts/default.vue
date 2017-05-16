@@ -1,8 +1,10 @@
 <template>
   <div>
     <topbar/>
-    <pl-header/>
-    <navbar/>
+    <div class="Romane">
+      <pl-header/>
+      <navbar/>
+    </div>
     <nuxt/>
     <foot/>
   </div>
@@ -122,13 +124,22 @@ section
 }
 .Card
 {
+  height: 100%;
   margin-bottom: 15px;
   background-color: #fff;
+  border-radius: 5px;
   border: 1px solid lighten(#252e38, 70%);
   &__Image
   {
     width: 100%;
     display: inline-block;
   }
+}
+.Romane
+{
+  background-color: #252e38;
+  background-image: url('~assets/images/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>

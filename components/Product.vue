@@ -84,6 +84,7 @@ export default {
     display: block;
     color: lighten(#252e38, 10%);
     padding: 0 15px;
+    padding-bottom: 10px;
   }
   &__Option
   {
@@ -92,14 +93,17 @@ export default {
   }
   &__List
   {
+    display: inline-block;
     list-style: none;
     margin: 0;
     padding: 10px 0;
     &__Item
     {
-      display: inline-block;
+      overflow: auto;
+      display: block;
       border-radius: 5px;
-      margin: 5px 15px;
+      margin: 15px 15px;
+      margin-top: 5px;
       &__Size
       {
         float: left;
