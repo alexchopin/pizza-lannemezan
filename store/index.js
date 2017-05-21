@@ -4,8 +4,7 @@ export const state = {
   horaires: require('../data/horaires'),
   tailles: require('../data/tailles'),
   pizzas: require('../data/pizzas'),
-  plaques: require('../data/plaques'),
-  desserts: require('../data/desserts')
+  plaques: require('../data/plaques')
 }
 
 export const getters = {
