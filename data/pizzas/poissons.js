@@ -16,14 +16,5 @@ module.exports = [
       moyenne: 11.5,
       grande: 13.2
     }
-  },
-  {
-    name: 'Fruits de mer',
-    description: 'Tomate, fruits de mer, persillade, mozzarella',
-    prices: {
-      petite: 6.5,
-      moyenne: 11.5,
-      grande: 13.2
-    }
   }
 ]

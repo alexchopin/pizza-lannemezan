@@ -2,24 +2,17 @@
   <section class="Navbar">
     <container>
       <row>
-        <column sm="4">
+        <column sm="6">
           <nuxt-link class="Link" to="/pizzas">
             <div class="Link__Box">
               <pizza/> PIZZAS
             </div>
           </nuxt-link>
         </column>
-        <column sm="4">
+        <column sm="6">
           <nuxt-link class="Link" to="/plaques">
             <div class="Link__Box">
               <pizzas/> PLAQUES
-            </div>
-          </nuxt-link>
-        </column>
-        <column sm="4">
-          <nuxt-link class="Link" to="/desserts">
-            <div class="Link__Box">
-              <cake/> DESSERTS
             </div>
           </nuxt-link>
         </column>
