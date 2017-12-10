@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import PizzaDuMois from '~components/PizzaDuMois'
+import PizzaDuMois from '@/components/PizzaDuMois'
 
 export default {
   components: {

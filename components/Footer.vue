@@ -6,7 +6,7 @@
           <column sm="6" md="4">
             <h3 class="Footer__Infos__Title">Horaires</h3>
             <ul class="Footer__Infos__List">
-              <li v-for="(value, key) in horaires" class="Footer__Infos__List__Row">
+              <li v-for="(value, key) in horaires" class="Footer__Infos__List__Row" :key="key">
                 <span class="Footer__Infos__List__Row__Title">{{ key }}</span> {{ value }}
               </li>
             </ul>

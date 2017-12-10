@@ -82,16 +82,16 @@
 </template>
 
 <script>
-import Calendar from '~components/Icons/Calendar'
-import Bacon from '~components/Icons/Bacon'
-import Brocoli from '~components/Icons/Brocoli'
-import Cheese from '~components/Icons/Cheese'
-import Chicken from '~components/Icons/Chicken'
-import Fish from '~components/Icons/Fish'
-import Fruit from '~components/Icons/Fruit'
-import Meat from '~components/Icons/Meat'
-import Olive from '~components/Icons/Olive'
-import SaltSuggar from '~components/Icons/SaltSuggar'
+import Calendar from '@/components/Icons/Calendar'
+import Bacon from '@/components/Icons/Bacon'
+import Brocoli from '@/components/Icons/Brocoli'
+import Cheese from '@/components/Icons/Cheese'
+import Chicken from '@/components/Icons/Chicken'
+import Fish from '@/components/Icons/Fish'
+import Fruit from '@/components/Icons/Fruit'
+import Meat from '@/components/Icons/Meat'
+import Olive from '@/components/Icons/Olive'
+import SaltSuggar from '@/components/Icons/SaltSuggar'
 
 export default {
   components: {

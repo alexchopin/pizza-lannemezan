@@ -7,7 +7,7 @@
       Supplément: {{ product.option.name }}
     </p>
     <ul class="Product__List">
-      <li v-for="(price, size) in product.prices" class="Product__List__Item">
+      <li v-for="(price, size) in product.prices" class="Product__List__Item" :key="size">
         <div class="Product__List__Item__Size">
           {{ getSize(size) }}
         </div>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import Basket from '~components/Icons/Store'
+import Basket from '@/components/Icons/Store'
 
 export default {
   props: {

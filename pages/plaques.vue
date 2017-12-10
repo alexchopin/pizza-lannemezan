@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import Salt from '~components/Icons/Salt'
-import Suggar from '~components/Icons/Suggar'
+import Salt from '@/components/Icons/Salt'
+import Suggar from '@/components/Icons/Suggar'
 
 export default {
   components: {

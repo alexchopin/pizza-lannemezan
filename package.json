@@ -6,7 +6,6 @@
   "private": true,
   "dependencies": {
     "nuxt": "latest",
-    "nuxt-helpers": "^0.10.0",
     "vue-flexboxgrid": "^1.5.0"
   },
   "scripts": {

@@ -1,6 +1,4 @@
-const NuxtHelpers = require('nuxt-helpers');
-
-module.exports = NuxtHelpers(['optimize', 'offline', 'manifest'], {
+module.exports = {
   head: {
     title: 'Pizza Au Feu De Bois - LANNEMEZAN',
     meta: [
@@ -19,10 +17,6 @@ module.exports = NuxtHelpers(['optimize', 'offline', 'manifest'], {
   },
   plugins: ['~/plugins/flexboxgrid.js', { src: '~plugins/ga.js', ssr: false }],
   loading: { color: '#fff' },
-  manifest: {
-    name: 'Nuxt.js',
-    theme_color: '#fff'
-  },
   generate: {
     routes: function () {
       let pizzas = require('./data/pizzas')
@@ -47,4 +41,4 @@ module.exports = NuxtHelpers(['optimize', 'offline', 'manifest'], {
       }
     }
   }
-})
+}

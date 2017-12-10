@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Logo from '~components/LogoH'
+import Logo from '@/components/LogoH'
 
 export default {
   components: {

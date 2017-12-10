@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import Topbar from '~components/Topbar'
-import Navbar from '~components/Navbar'
-import PlHeader from '~components/Header'
-import Foot from '~components/Footer'
+import Topbar from '@/components/Topbar'
+import Navbar from '@/components/Navbar'
+import PlHeader from '@/components/Header'
+import Foot from '@/components/Footer'
 
 export default {
   mounted () {

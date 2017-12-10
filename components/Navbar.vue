@@ -22,9 +22,9 @@
 </template>
 
 <script>
-import Pizza from '~components/Icons/Pizza'
-import Pizzas from '~components/Icons/Pizzas'
-import Cake from '~components/Icons/Cake'
+import Pizza from '@/components/Icons/Pizza'
+import Pizzas from '@/components/Icons/Pizzas'
+import Cake from '@/components/Icons/Cake'
 
 export default {
   components: {

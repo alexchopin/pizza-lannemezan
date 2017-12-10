@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'Pizza du mois de Juillet: La Gusto Italia !',
-  description: 'Sauce tomate, Mozzarella, Pasta aux pépéroni tricolores, Pancetta grillée, Speck, Légumes frais, Parmesan.',
-  image: 'mois_juillet.jpg',
+  name: 'Pizza du mois de Décembre: La Pyrénéenne !',
+  description: 'Crème fraiche, Mozzarella, Écrasé de pommes de terre, Coppa, Ventrêche, Lard de noir de bigorre, Fromage de vache.',
+  image: 'mois_decembre.jpg',
   prices: {
-    moyenne: 11.80,
-    grande: 13.80
+    moyenne: 13.80,
+    grande: 15.80
   }
 }

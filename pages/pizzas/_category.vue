@@ -14,8 +14,8 @@
   </section>
 </template>
 <script>
-import Product from '~components/Product'
-import PizzaDuMois from '~components/PizzaDuMois'
+import Product from '@/components/Product'
+import PizzaDuMois from '@/components/PizzaDuMois'
 
 export default {
   validate ({ params, store }) {

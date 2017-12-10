@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Product from '~components/Product'
+import Product from '@/components/Product'
 
 export default {
   computed: {

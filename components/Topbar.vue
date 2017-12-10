@@ -27,9 +27,9 @@
 </template>
 
 <script>
-import Phone from '~components/Icons/App'
-import Basket from '~components/Icons/Store'
-import Logo from '~components/Logo'
+import Phone from '@/components/Icons/App'
+import Basket from '@/components/Icons/Store'
+import Logo from '@/components/Logo'
 
 export default {
   computed: {

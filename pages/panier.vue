@@ -13,7 +13,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(product, i) in basket">
+          <tr v-for="(product, i) in basket" :key="i">
             <td>
               <button type="button" @click="minus(i)" class="Button">-</button>
               {{ product.quantity }}

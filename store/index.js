@@ -1,11 +1,11 @@
-export const state = {
+export const state = () => ({
   commande: [],
   pizzaDuMois: require('../data/pizza-du-mois'),
   horaires: require('../data/horaires'),
   tailles: require('../data/tailles'),
   pizzas: require('../data/pizzas'),
   plaques: require('../data/plaques')
-}
+})
 
 export const getters = {
   getSize: (state) => (key) => {
