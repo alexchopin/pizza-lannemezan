@@ -17,28 +17,28 @@ module.exports = {
   },
   plugins: ['~/plugins/flexboxgrid.js', { src: '~plugins/ga.js', ssr: false }],
   loading: { color: '#fff' },
-  generate: {
-    routes: function () {
-      let pizzas = require('./data/pizzas')
-      let plaques = require('./data/plaques')
-      let r = []
-      r.push('/pizzas/')
-      pizzas.forEach((pizza) => { r.push('/pizzas/' + pizza.category) })
-      r.push('/plaques/')
-      plaques.forEach((plaque) => { r.push('/plaques/' + plaque.category) })
-      return r
-    }
-  },
-  build: {
-    extend (config, ctx) {
-      if (ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  }
+  // generate: {
+  //   routes: function () {
+  //     let pizzas = require('./data/pizzas')
+  //     let plaques = require('./data/plaques')
+  //     let r = []
+  //     r.push('/pizzas/')
+  //     pizzas.forEach((pizza) => { r.push('/pizzas/' + pizza.category) })
+  //     r.push('/plaques/')
+  //     plaques.forEach((plaque) => { r.push('/plaques/' + plaque.category) })
+  //     return r
+  //   }
+  // },
+  // build: {
+  //   extend (config, ctx) {
+  //     if (ctx.isClient) {
+  //       config.module.rules.push({
+  //         enforce: 'pre',
+  //         test: /\.(js|vue)$/,
+  //         loader: 'eslint-loader',
+  //         exclude: /(node_modules)/
+  //       })
+  //     }
+  //   }
+  // }
 }
